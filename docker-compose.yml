@@ -1,8 +1,8 @@
 version: '3'
 services: 
   xrayr: 
-    image: aikocute/xrayr:v1.3.12
+    image: aikocute/aiko:latest
     volumes:
-      - ./config:/etc/XrayR/ #AikoCute
+      - ./config:/etc/Aiko/ #AikoCute
     restart: always
     network_mode: host
